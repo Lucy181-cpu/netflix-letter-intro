@@ -59,60 +59,82 @@ body {
   background-position: -1950px 0;
 }
 
-/* LETTER A */
-#container netflixintro[letter=A] {
- transform-origin: 30% center;
+/* LETTER M */
+#container netflixintro[letter=M] {
+  transform-origin: 50% top;
 }
-/* LEFT diagonal */
-#container netflixintro[letter=A] .helper-1 {
+
+/* LEFT OUTER */
+#container netflixintro[letter=M] .helper-1 {
   width: 19%;
   height: 150%;
-  left: 30%;
-  top: -25%;
-  transform: rotate(-170deg);
-  animation-name: fading-lumieres-box;
-  animation-duration: 2s;
-  animation-delay: 1.2s;
-  animation-fill-mode: forwards;
-}
-#container netflixintro[letter=A] .helper-1 .effect-brush {
-  animation-name: brush-moving;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-delay: 1s;
-}
-/* RIGHT diagonal */
-#container netflixintro[letter=A] .helper-2 {
-  width: 19%;
-  height: 150%;
-  left: 50%;
-  top: -25%;
-  transform: rotate(170deg);
+  left: 10%;
+  top: -30%;
+  transform: rotate(10deg); /* flipped */
   animation-name: fading-lumieres-box;
   animation-duration: 2s;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
-#container netflixintro[letter=A] .helper-2 .effect-brush {
+#container netflixintro[letter=M] .helper-1 .effect-brush {
+  animation-name: brush-moving;
+  animation-duration: 2.5s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+/* LEFT INNER */
+#container netflixintro[letter=M] .helper-2 {
+  width: 19%;
+  height: 150%;
+  left: 35%;
+  top: -30%;
+  transform: rotate(-12deg); /* flipped */
+  animation-name: fading-lumieres-box;
+  animation-duration: 2s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+#container netflixintro[letter=M] .helper-2 .effect-brush {
+  animation-name: brush-moving;
+  animation-duration: 2.5s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+/* RIGHT INNER */
+#container netflixintro[letter=M] .helper-3 {
+  width: 19%;
+  height: 150%;
+  left: 50%;
+  top: -30%;
+  transform: rotate(12deg); /* flipped */
+  animation-name: fading-lumieres-box;
+  animation-duration: 2s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+#container netflixintro[letter=M] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
-/* MIDDLE horizontal bar */
-#container netflixintro[letter=A] .helper-3 {
+
+/* RIGHT OUTER */
+#container netflixintro[letter=M] .helper-4 {
   width: 19%;
-  height: 40%;
-  left: 41%;
-  top: 50%;
-  transform: rotate(-90deg);
+  height: 150%;
+  left: 75%;
+  top: -30%;
+  transform: rotate(-10deg); /* flipped */
   overflow: hidden;
 }
-#container netflixintro[letter=A] .helper-3 .effect-brush {
+#container netflixintro[letter=M] .helper-4 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 0.7s;
+  animation-delay: 0.5s;
 }
 
 #container netflixintro [class*=helper-] {
