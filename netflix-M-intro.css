@@ -61,7 +61,7 @@ body {
 
 /* LETTER M */
 #container netflixintro[letter=M] {
-  transform-origin: 20% center;
+  transform-origin: 15% center;
 }
 /* LEFT OUTER */
 #container netflixintro[letter=M] .helper-1 {
