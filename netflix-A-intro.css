@@ -61,9 +61,8 @@ body {
 
 /* LETTER M */
 #container netflixintro[letter=M] {
-  transform-origin: 50% top;
+  transform-origin: 20% center;
 }
-
 /* LEFT OUTER */
 #container netflixintro[letter=M] .helper-1 {
   width: 19%;
@@ -82,12 +81,11 @@ body {
   animation-delay: 1.2s;
   animation-fill-mode: forwards;
 }
-
 /* LEFT INNER */
 #container netflixintro[letter=M] .helper-2 {
   width: 19%;
   height: 150%;
-  left: 35%;
+  left: 27%;
   top: -30%;
   transform: rotate(-12deg); /* flipped */
   animation-name: fading-lumieres-box;
@@ -101,12 +99,11 @@ body {
   animation-delay: 0.8s;
   animation-fill-mode: forwards;
 }
-
 /* RIGHT INNER */
 #container netflixintro[letter=M] .helper-3 {
   width: 19%;
   height: 150%;
-  left: 50%;
+  left: 52%;
   top: -30%;
   transform: rotate(12deg); /* flipped */
   animation-name: fading-lumieres-box;
@@ -120,12 +117,11 @@ body {
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
-
 /* RIGHT OUTER */
 #container netflixintro[letter=M] .helper-4 {
   width: 19%;
   height: 150%;
-  left: 75%;
+  left: 70%;
   top: -30%;
   transform: rotate(-10deg); /* flipped */
   overflow: hidden;
@@ -136,7 +132,6 @@ body {
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
-
 #container netflixintro [class*=helper-] {
   position: absolute;
 }
